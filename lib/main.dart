@@ -14,7 +14,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Text('플러터 클린 아키텍처'),
+      home: const Scaffold(
+        body: Center(
+          child: Text('플러터 클린 아키텍처'),
+        ),
+      ),
     );
   }
 }
